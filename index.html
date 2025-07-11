@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 Vikram Mehta – Gaming Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', monospace;
+      background-color: #0f0f0f;
+      color: #00ff99;
+      background-image: url('https://www.transparenttextures.com/patterns/pixel-weave.png');
+    }
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 4px solid #00ff99;
+      border-radius: 16px;
+      background-color: #1a1a1a;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    h1, h2, h3 {
+      color: #00ffff;
+      text-shadow: 1px 1px 0 #00ff99;
+    }
+    .xp-bar {
+      height: 20px;
+      width: 100%;
+      background-color: #333;
+      border: 2px solid #00ff99;
+      margin: 10px 0;
+      position: relative;
+    }
+    .xp-fill {
+      height: 100%;
+      width: 85%;
+      background-color: #00ff99;
+      animation: fillXP 3s ease-out;
+    }
+    @keyframes fillXP {
+      from { width: 0; }
+      to { width: 85%; }
+    }
+    ul {
+      list-style-type: "🕹️ ";
+      padding-left: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .glow {
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ff99; }
+      to { text-shadow: 0 0 20px #00ffff, 0 0 30px #00ff99; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="glow">🎮 Vikram Mehta – Level 13+ Product Manager</h1>
+    <p>🗺️ Brampton, Canada | 📞 647-982-9684 | 📧 vikram9@live.com</p>
+    <div class="xp-bar"><div class="xp-fill"></div></div>
+
+    <div class="section">
+      <h2>🧠 Profile Summary</h2>
+      <p>Strategic Senior Product Manager with 13+ years in gaming. Expert in live-ops, monetization, UX, and cross-platform dev. Powers up teams and products alike!</p>
+    </div>
+
+    <div class="section">
+      <h2>📜 Quest Log (Experience)</h2>
+      <h3>Behavior Interactive (2022–2024)</h3>
+      <ul>
+        <li>+95% retention with Live-Ops power moves</li>
+        <li>Boosted monetization via contextual rewards</li>
+      </ul>
+      <h3>Big Viking Games (2019–2022)</h3>
+      <ul>
+        <li>Drove AAA engagement via AREM tactics</li>
+        <li>Led cross-functional raids with devs and designers</li>
+      </ul>
+      <h3>Jet Synthesys (2017–2019)</h3>
+      <ul>
+        <li>Redesigned onboarding flow to max XP gain</li>
+        <li>Buffed player retention through A/B magic</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛡️ Core Stats</h2>
+      <ul>
+        <li>🎯 Game Development +9</li>
+        <li>🧠 Live-Ops Strategy +10</li>
+        <li>💰 Monetization +8</li>
+        <li>📊 Data Analysis +7</li>
+        <li>🤝 Stakeholder Wrangling +9</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <p>B.E. Electronics and Telecom, Pune University (2003–2009)</p>
+    </div>
+
+    <div class="section">
+      <h2>✨ Special Moves</h2>
+      <ul>
+        <li>🚀 Boosts engagement via smart analytics</li>
+        <li>💡 Powers innovation through team synergy</li>
+        <li>🛠️ Builds scalable tools to support dev squads</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
